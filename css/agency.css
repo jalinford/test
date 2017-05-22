@@ -21,6 +21,9 @@ p {
 p.large {
   font-size: 16px;
 }
+p.highlight {
+  font-size: 24px;
+}
 a,
 a:hover,
 a:focus,
@@ -229,6 +232,7 @@ fieldset[disabled] .btn-xl.active {
 
   .navbar-custom .navbar-brand {
     padding-top: 10px;
+    font-weight:300;
   }
 
   .navbar-brand .navbar-logo {
@@ -317,6 +321,9 @@ section h3.section-subheading {
   section {
     padding: 150px 0;
   }
+}
+.about-details {
+  margin-bottom: 40px;
 }
 .service-heading {
   margin: 15px 0;
