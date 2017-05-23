@@ -248,6 +248,14 @@ fieldset[disabled] .btn-xl.active {
   .navbar-custom.affix .navbar-brand {
     font-size: 1.5em;
   }
+  .navbar-custom.affix-top .navbar-brand {
+    padding-top:0px;
+  }
+  .navbar-custom.affix-top .navbar-brand .navbar-logo {
+    max-height:60px;
+    margin-top:-10px;
+    margin-right:-2px;
+  }
 }
 header {
   background-image: url('../img/header-bg.jpg');
