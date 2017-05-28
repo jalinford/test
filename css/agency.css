@@ -323,7 +323,7 @@ section h3.section-subheading {
   text-transform: none;
   font-style: italic;
   font-weight: 400;
-  margin-bottom: 75px;
+  margin-bottom: 60px;
 }
 @media (min-width: 768px) {
   section {
@@ -337,6 +337,13 @@ section h3.section-subheading {
   margin: 15px 0;
   text-transform: none;
 }
+
+@media (max-width: 768px) {
+  .story-image {
+    margin-bottom: 40px;
+  }
+}
+
 #portfolio .portfolio-item {
   margin: 0 0 15px;
   right: 0;
