@@ -607,12 +607,13 @@ section h3.section-subheading {
   color: #EA7B81;
 }
 .mc-field-group {
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 .mc-field-group label {
   min-width: 30%;
   text-align: right;
   padding-right: 8px;
+  font-size: 16px;
 }
 .mc-field-group input {
   min-width: 60%;
