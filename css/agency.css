@@ -594,6 +594,69 @@ section h3.section-subheading {
 .team-member p {
   margin-top: 0;
 }
+
+#mc_embed_signup label {
+  color: #FFFFFF;
+}
+.indicates-required {
+  color: #FFFFFF;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.asterisk {
+  color: #EA7B81;
+}
+.mc-field-group {
+  margin-bottom: 20px;
+}
+.mc-field-group label {
+  min-width: 30%;
+  text-align: right;
+  padding-right: 8px;
+}
+.mc-field-group input {
+  min-width: 60%;
+}
+.mc-field-group select {
+  min-width: 60%;
+  max-width: 60%;
+}
+#mc_embed_signup .clear {
+  text-align: center;
+}
+
+.contact-us-form input {
+  font-size: 0.8em;
+  border: 1px solid #ddd;
+  background: #fff;
+  padding: 0.9em;
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+  margin: 10px;
+}
+.contact-us-form textarea {
+  font-size: 0.8em;
+  border: 1px solid #ddd;
+  background: #fff;
+  padding: 0.9em;
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+  margin: 10px;
+  min-height: 100px;
+}
+.contact-us-form button {
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: 2px solid #62C6F4;
+  color: #62C6F4;
+  background: transparent;
+  line-height: 1em;
+  padding: 0.6em 0.9em;
+  transition: all 0.3s ease-in-out;
+  margin: 0 0 60px 0;
+}
+
 aside.clients img {
   margin: 50px auto;
 }
