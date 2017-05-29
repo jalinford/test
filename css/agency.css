@@ -616,10 +616,23 @@ section h3.section-subheading {
 }
 .mc-field-group input {
   min-width: 60%;
+  border: 1px solid #ddd;
+  background: #fff;
+  padding: 4px;
+  transition: all 0.3s ease-in-out;
+  margin: 8px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
 }
 .mc-field-group select {
   min-width: 60%;
   max-width: 60%;
+  border: 1px solid #ddd;
+  background: #fff;
+  padding: 8px;
+  transition: all 0.3s ease-in-out;
+  margin: 8px;
 }
 #mc_embed_signup .clear {
   text-align: center;
@@ -629,20 +642,26 @@ section h3.section-subheading {
   font-size: 0.8em;
   border: 1px solid #ddd;
   background: #fff;
-  padding: 0.9em;
+  padding: 8px 4px;
   transition: all 0.3s ease-in-out;
   width: 100%;
   margin: 10px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
 }
 .contact-us-form textarea {
   font-size: 0.8em;
   border: 1px solid #ddd;
   background: #fff;
-  padding: 0.9em;
+  padding: 8px 4px;
   transition: all 0.3s ease-in-out;
   width: 100%;
   margin: 10px;
   min-height: 100px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
 }
 .contact-us-form button {
   font-size: 1em;
